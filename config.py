@@ -21,7 +21,7 @@ BOT_NAME = getenv("BOT_NAME", "LVY MUSIC")
 ASSUSERNAME = getenv("ASSUSERNAME", "LVY_MUSIC")
 EVALOP = list(map(int, getenv("EVALOP", "6627636245").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sashikantlvy:jkmadmax@sashikant.mb7bbyv.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://rajdipsarkar:Rajdip998@rajdip.bfrvb07.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10000"))
 
@@ -31,7 +31,7 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002117074936"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002099153345"))
 
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "6627636245"))
@@ -51,8 +51,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/STATUSDAIRY2")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/voiceofheart0")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/lucifar_music")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Stranger_think")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -95,10 +95,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/faab37992164e1a4302d7.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/b64a324639c4441284d69.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/00360393a15daf7fc4e9d.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/40edf97c2c0dbfcb400ac.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
