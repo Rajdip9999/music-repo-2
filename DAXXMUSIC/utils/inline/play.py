@@ -69,9 +69,9 @@ def stream_markup_timer(_, chat_id, played, dur):
                  [
             InlineKeyboardButton(
 
-                text="sᴀsʜɪᴋᴀɴᴛ",
+                text="LUCIFERCHAT",
 
-                url=f"https://t.me/about_sashikant",
+                url=f"https://t.me/Stranger_think",
 
             ),
             InlineKeyboardButton(
@@ -99,9 +99,9 @@ def stream_markup(_, chat_id):
                  [
             InlineKeyboardButton(
 
-                text="sᴀsʜɪᴋᴀɴᴛ",
+                text="LUCIFERCHAT",
 
-                url=f"https://t.me/about_sashikant",
+                url=f"https://t.me/Stranger_think",
 
             ),
             InlineKeyboardButton(
